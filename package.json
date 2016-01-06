@@ -1,0 +1,30 @@
+{
+  "name": "webpack_examples",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "basic": "webpack --config ./basic/webpack.conf.js",
+    "basic-ds": "webpack-dev-server --config ./basic/webpack.conf.js",
+    "basic-hot": "webpack-dev-server --inline --hot --config ./basic/webpack.conf.js",
+    "react": "webpack-dev-server --inline --hot --config ./react/webpack.conf.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "babel-core": "^6.3.26",
+    "babel-loader": "^6.2.1",
+    "babel-preset-es2015": "^6.3.13",
+    "babel-preset-react": "^6.3.13",
+    "eslint": "^1.6.0",
+    "eslint-loader": "^1.0.0",
+    "eslint-plugin-react": "^3.5.1",
+    "file-loader": "^0.8.4",
+    "html-webpack-plugin": "^1.6.1",
+    "react": "^0.14.5",
+    "react-dom": "^0.14.5",
+    "react-hot-loader": "^1.3.0",
+    "webpack": "^1.12.9",
+    "webpack-dev-server": "^1.14.0"
+  }
+}
